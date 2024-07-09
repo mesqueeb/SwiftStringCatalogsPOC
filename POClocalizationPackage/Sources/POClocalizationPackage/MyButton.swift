@@ -15,18 +15,10 @@ public struct MyButton: View {
 
   public var body: some View {
     Button(action: action) {
-      
-      
-      Text(label ??    LocalizedStringResource("Tap here", bundle: ., comment: "Button label fallback text"))
+      Text(label ?? LocalizedStringResource("Tap here", bundle: .module, comment: "Button label fallback text"))
     }
   }
 }
-
-
-
-
-
-
 
 #Preview {
   MyButton(action: {}, label: LocalizedStringResource("Tap there", comment: "Preview text"))
