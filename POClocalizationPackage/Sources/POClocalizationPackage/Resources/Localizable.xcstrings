@@ -1,0 +1,16 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Text defined in Package!" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Package内の文面"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
