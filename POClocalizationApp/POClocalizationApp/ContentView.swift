@@ -3,14 +3,15 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    VStack {
-      Image(systemName: "globe")
-        .imageScale(.large)
-        .foregroundStyle(.tint)
+    VStack(spacing: 16) {
       Text("Hello, world!")
-      POCLocPackView(text: "Some text here")
+
+      Text(LocalizedStringResource("Text from host app", comment: "shown on the main screen"))
+
+      MyButton(action: {}) // will use fallback label from MyButton
+
+      MyButton(action: {}, label: "Let's tap here!")
     }
-    .padding()
   }
 }
 

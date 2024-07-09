@@ -11,12 +11,23 @@
         }
       }
     },
-    "Some text here" : {
+    "Let's tap here!" : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ここ文字"
+            "value" : "こちらをタップしよう！"
+          }
+        }
+      }
+    },
+    "Text from host app" : {
+      "comment" : "shown on the main screen",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホストアプリの文面"
           }
         }
       }

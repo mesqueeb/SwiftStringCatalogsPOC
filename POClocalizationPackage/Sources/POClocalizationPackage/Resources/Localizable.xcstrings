@@ -1,12 +1,24 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Text defined in Package!" : {
+    "Tap here" : {
+      "comment" : "Button label fallback text",
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Package内の文面"
+            "value" : "こちらをタップ"
+          }
+        }
+      }
+    },
+    "Tap there" : {
+      "comment" : "Preview text",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そちらをタップ"
           }
         }
       }
